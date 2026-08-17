@@ -1,16 +1,15 @@
 Feature: Search for pets by category
 
+As a pet shop customer
+I need to be able to search for a pet by category
+So that I only see the category of pet I'm interested in buying
+
 Background:
     Given the following pets
         | name    | category | available |
         | Fido    | dog      | True      |
         | Kitty   | cat      | True      |
         | Leo     | lion     | False     |
-
-
-As a pet shop customer
-I need to be able to search for a pet by category
-So that I only see the category of pet I'm interested in buying
 
 Scenario: Search for dogs
     Given I am on the "Home Page"
