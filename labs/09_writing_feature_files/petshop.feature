@@ -1,7 +1,5 @@
 Feature: Search for pets by category
 
-As a user
-
-I need to search for pets filtering them by their category
-
-So that I can get a list of available and suitable pets
+As a pet shop customer
+I need to be able to search for a pet by category
+So that I only see the category of pet I'm interested in buying
